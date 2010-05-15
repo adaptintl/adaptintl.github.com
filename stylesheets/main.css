@@ -78,7 +78,7 @@ a:hover { text-decoration: underline; }
 .bold { font-weight: bold;}
 .major { font-weight: bold; letter-spacing: -1px; font-size: 1.8em; margin-left: 3em;}
 .section { margin-bottom: 30px; clear: both;}
-.cta { border: 1px solid #80FEAC; 
+span.cta { border: 1px solid #80FEAC; 
   background-color: #BFFED6; 
   padding: 8px;
   -moz-border-radius: 5px;
