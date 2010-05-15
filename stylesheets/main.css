@@ -78,4 +78,4 @@ a:hover { text-decoration: underline; }
 .major { font-weight: bold; letter-spacing: -1px; font-size: 1.8em; margin-left: 3em;}
 .section { margin-bottom: 30px; clear: both;}
 
-#form1 .info { display: none; border: 1px solid red;}
+#public form.wufoo div.info { display: none; border: 1px solid red;}
