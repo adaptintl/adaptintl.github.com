@@ -43,14 +43,20 @@
       #details h3 { color: #0074B1;}      
       #details li { margin-bottom: 20px;}
             
-      #services img {
-        width: 300px;
+      #services .captioned-image {
+        width: 310px;        
+        margin: -120px 20px 10px 30px;        
         float: right;
-        margin: -120px 20px 10px 30px;
-        border: 1px solid #ddd;
-        padding: 10px;
         background-color: white;
       }
+      #services .captioned-image img {
+        border: 1px solid #ddd;
+        padding: 10px;  
+        background-color: white;
+        margin-bottom: 10px;
+      }
+      #services .captioned-image span { font-size: 0.8em; color:#666; margin-left: 30px;}
+      
       #services ul.service-details li {
         margin: 5px 5px 5px 0px;
         color: #666;
@@ -106,7 +112,14 @@
       </div>
       <div id="details">
         <div id="services" class='section'>
-          <img src="images/our_changing_planet_small.jpg">                  
+          <div class='captioned-image'>
+            <img src="images/our_changing_planet_small.jpg">
+            <span>Image credit: 
+              <a href='http://www.globalchange.gov' target='_blank'>
+                U.S. Global Change Research Program
+              </a>
+            </span> 
+          </div>
           <h2><a name="services"></a>Services</h2>
           <ul>
             <li>
