@@ -19,7 +19,7 @@ body {
   height: 70px; line-height: 85px;         
 }
 #nav h3 { font-weight: normal;}
-#nav span { margin-right: 40px;}
+#nav span { margin-right: 30px;}
 #message {
   border: 1px solid #ddd;
   background-color: #eee;
@@ -78,5 +78,11 @@ a:hover { text-decoration: underline; }
 .bold { font-weight: bold;}
 .major { font-weight: bold; letter-spacing: -1px; font-size: 1.8em; margin-left: 3em;}
 .section { margin-bottom: 30px; clear: both;}
+.cta { border: 1px solid #80FEAC; 
+  background-color: #BFFED6; 
+  padding: 8px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  font-weight: normal;}
 
 #public form.wufoo div.info { display: none; border: 1px solid red;}
