@@ -42,6 +42,7 @@ body {
   background-color: white;
 }
 #services .captioned-image img {
+  width: 300px;
   border: 1px solid #ddd;
   padding: 10px;  
   background-color: white;
