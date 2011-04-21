@@ -111,4 +111,4 @@ span.cta { border: 1px solid #80FEAC;
   -webkit-border-radius: 5px;
   font-weight: normal;}
 
-#public form.wufoo div.info { display: none; }
+#public form.wufoo div.info, #public form.wufoo header.info  { display: none; }
