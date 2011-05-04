@@ -85,7 +85,7 @@ body.main {
 }
 
 .projects img {
-	width: 200px;
+	width: 240px;
 	float: right;
 	clear: both;
 }
@@ -101,7 +101,7 @@ a:hover { text-decoration: underline; }
 .secondary { color: #0074B1; }
 .clear { clear: both;}      
 .bold { font-weight: bold;}
-.prepare { margin-left: 3em; }
+.prepare { margin-left: 3em; font-size: 1.2em; }
 .major { font-weight: bold; letter-spacing: -1px; font-size: 1.8em; }
 .section { margin-bottom: 30px; clear: both;}
 span.cta { border: 1px solid #80FEAC; 
